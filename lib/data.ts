@@ -213,7 +213,7 @@ url: "/certificates/DSA.pdf",
       degree: "Bachelor of Technology (B.Tech)",
       institution: "Parul University",
       period: "2024 - 2028",
-      gpa: "",
+      gpa: "7.19",
       highlights: [
         "Data Structures",
         "Algorithms",
