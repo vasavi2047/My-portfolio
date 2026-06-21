@@ -3,16 +3,16 @@ export const personalInfo = {
   firstName: "Vasavi",
   title: "B.Tech Student | Software Developer | Problem Solver",
   tagline:
-    "Building scalable, user-centric applications with clean architecture and modern web technologies.",
-  location: "India",
-  email: "kongaravasavi20@email.com",
+  "Software Developer passionate about building impactful solutions and solving real-world problems.",
+  location: "Andhra Pradesh, India",
+  email: "[kongaravasavi20@gmail.com](mailto:kongaravasavi20@gmail.com)",
   github: "https://github.com/vasavi2047",
   linkedin: "https://www.linkedin.com/in/vasavi-kongara-037a2234b",
-  resumeUrl: "#",
-  availability: "Open to opportunities",
-};
-
-export const navLinks = [
+  resumeUrl: "/resume.pdf",
+  availability: "Open to Internships and Software Engineering Opportunities",
+  };
+  
+  export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
@@ -21,56 +21,76 @@ export const navLinks = [
   { label: "Achievements", href: "#achievements" },
   { label: "GitHub", href: "#github" },
   { label: "Contact", href: "#contact" },
-];
-
-export const aboutContent = {
+  ];
+  
+  export const aboutContent = {
   summary:
-    "I'm a software engineer student passionate about crafting elegant solutions to complex problems. With a strong foundation in computer science and hands-on experience across the full stack, I focus on writing maintainable code, optimizing performance, and delivering products that users love.",
+  "I am a B.Tech student at Parul University passionate about Software Development, Data Structures & Algorithms, Artificial Intelligence, and Full Stack Development. I enjoy creating practical applications that solve real-world problems and continuously improving my technical skills through projects, certifications, and hands-on learning.",
+  
   highlights: [
-    {
-      title: "Full-Stack Development",
-      description:
-        "End-to-end ownership from API design to polished UI with React, Node.js, and cloud services.",
-    },
-    {
-      title: "System Design",
-      description:
-        "Architecting scalable, fault-tolerant systems with clean separation of concerns and observability.",
-    },
-    {
-      title: "Collaborative Engineering",
-      description:
-        "Agile workflows, code reviews, and cross-functional communication to ship quality software.",
-    },
+  {
+  title: "Software Development",
+  description:
+  "Building practical applications using modern technologies and software engineering principles.",
+  },
+  {
+  title: "Problem Solving",
+  description:
+  "Actively practicing Data Structures and Algorithms to strengthen coding and analytical skills.",
+  },
+  {
+  title: "Continuous Learning",
+  description:
+  "Improving technical skills through certifications, projects, and hands-on development.",
+  },
   ],
+  
   stats: [
-    { label: "Projects Shipped", value: "15+" },
-    { label: "Technologies", value: "20+" },
-    { label: "Years Experience", value: "3+" },
-    { label: "Open Source", value: "10+" },
+  { label: "Projects", value: "2+" },
+  { label: "Certifications", value: "5+" },
+  { label: "University", value: "Parul" },
+  { label: "B.Tech", value: "2024-2028" },
   ],
-};
-
-export const skillCategories = [
+  };
+  
+  export const skillCategories = [
   {
-    category: "Languages",
-    skills: ["TypeScript", "JavaScript", "Python", "Java", "SQL", "C"],
+  category: "Programming Languages",
+  skills: ["Java", "Python", "C"],
   },
   {
-    category: "Frontend",
-    skills: [ "Next.js", "Tailwand css", "HTML/CSS"],
+  category: "Web Technologies",
+  skills: [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Next.js",
+  "TypeScript",
+  ],
   },
   {
-    category: "Backend",
-    skills: ["Node.js", , "REST APIs",  "PostgreSQL", "MongoDB"],
+  category: "Libraries",
+  skills: ["NumPy", "Pandas", "Matplotlib"],
   },
   {
-    category: "Tools & DevOps",
-    skills: ["Git",  "AWS", "CI/CD", "Vercel"],
+  category: "Tools",
+  skills: ["Git", "GitHub", "VS Code"],
   },
-];
-
-export const projects = [
+  {
+  category: "Core Concepts",
+  skills: [
+  "Data Structures",
+  "Algorithms",
+  "Object-Oriented Programming",
+  "REST APIs",
+  "Problem Solving",
+  "Software Development",
+  ],
+  },
+  ];
+  
+  export const projects = [
   {
   title: "SportConnect India",
   description:
@@ -148,7 +168,7 @@ export const projects = [
   {
   degree: "Bachelor of Technology (B.Tech)",
   institution: "Parul University",
-  period: "2024 – 2028",
+  period: "2024 - 2028",
   gpa: "",
   highlights: [
   "Data Structures",
@@ -201,7 +221,7 @@ export const projects = [
   export const githubStats = {
   username: "vasavi2047",
   profileUrl: "https://github.com/vasavi2047",
-  repos: 0,
+  repos: 5,
   followers: 0,
   contributions: 0,
   topLanguages: ["Java", "Python", "JavaScript", "TypeScript", "C"],
@@ -221,3 +241,4 @@ export const projects = [
   { label: "LinkedIn", href: personalInfo.linkedin },
   { label: "Email", href: `mailto:${personalInfo.email}` },
   ];
+  
