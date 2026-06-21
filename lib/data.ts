@@ -112,86 +112,52 @@ export const personalInfo = {
   
   ];
   
-  export const certifications = [
-  {
-  name: "Artificial Intelligence Fundamentals",
-  issuer: "IBM SkillsBuild",
-  date: "2025",
-  credentialId: "IBM-AI",
-  url: "#",
-  },
-  {
-  name: "Python 101 for Data Science",
-  issuer: "IBM SkillsBuild",
-  date: "2025",
-  credentialId: "IBM-PYTHON",
-  url: "#",
-  },
-  {
-  name: "Introduction to Cybersecurity",
-  issuer: "Cisco Networking Academy",
-  date: "2025",
-  credentialId: "CISCO-CYBER",
-  url: "#",
-  },
-  {
-  name: "Business Analytics with Excel",
-  issuer: "Microsoft",
-  date: "2025",
-  credentialId: "MS-BA",
-  url: "#",
-  },
-  {
-  name: "AI for Beginners",
-  issuer: "HP LIFE",
-  date: "2025",
-  credentialId: "HP-AI",
-  url: "#",
-  },
-  {
-  name: "Data Science & Analytics",
-  issuer: "HP LIFE",
-  date: "2025",
-  credentialId: "HP-DS",
-  url: "#",
-  },
-  {
-  name: "Data Structures & Algorithms",
-  issuer: "Additional Learning",
-  date: "2025",
-  credentialId: "DSA",
-  url: "#",
-  },
-  ];
+export const certifications = [
+{
+name: "Artificial Intelligence Fundamentals",
+issuer: "IBM SkillsBuild",
+date: "2025",
+credentialId: "IBM-AI",
+url: "/certificates/ibm-AI.pdf",
+},
+{
+name: "Python 101 for Data Science",
+issuer: "IBM SkillsBuild",
+date: "2025",
+credentialId: "IBM-PYTHON",
+url: "/certificates/ibm-python.pdf",
+},
+{
+name: "Introduction to Cybersecurity",
+issuer: "Cisco Networking Academy",
+date: "2025",
+credentialId: "CISCO-CYBER",
+url: "/certificates/cisco-cs.pdf",
+},
+{
+name: "Business Analytics with Excel",
+issuer: "Microsoft",
+date: "2025",
+credentialId: "MS-BA",
+url: "/certificates/microsoft-BAE.pdf",
+},
+{
+name: "AI for Beginners",
+issuer: "HP LIFE",
+date: "2025",
+credentialId: "HP-AI",
+url: "/certificates/AI.pdf",
+},
+{
+name: "Data Science & Analytics",
+issuer: "HP LIFE",
+date: "2025",
+credentialId: "HP-DS",
+url: "/certificates/DSA.pdf",
+},
+];
+
   
-  export const education = [
-  {
-  degree: "Bachelor of Technology (B.Tech)",
-  institution: "Parul University",
-  period: "2024 - 2028",
-  gpa: "",
-  highlights: [
-  "Data Structures",
-  "Algorithms",
-  "Artificial Intelligence",
-  "Software Development",
-  ],
-  },
-  {
-  degree: "Intermediate",
-  institution: "Narayana Junior College",
-  period: "",
-  gpa: "92.3%",
-  highlights: [],
-  },
-  {
-  degree: "SSC",
-  institution: "Gamyam School",
-  period: "",
-  gpa: "500 Marks",
-  highlights: [],
-  },
-  ];
   
   export const achievements = [
   {
@@ -241,4 +207,32 @@ export const personalInfo = {
   { label: "LinkedIn", href: personalInfo.linkedin },
   { label: "Email", href: `mailto:${personalInfo.email}` },
   ];
-  
+
+  export const education = [
+    {
+      degree: "Bachelor of Technology (B.Tech)",
+      institution: "Parul University",
+      period: "2024 - 2028",
+      gpa: "",
+      highlights: [
+        "Data Structures",
+        "Algorithms",
+        "Artificial Intelligence",
+        "Software Development",
+      ],
+    },
+    {
+      degree: "Intermediate",
+      institution: "Narayana Junior College",
+      period: "",
+      gpa: "92.3%",
+      highlights: [],
+    },
+    {
+      degree: "SSC",
+      institution: "Gamyam School",
+      period: "",
+      gpa: "500 Marks",
+      highlights: [],
+    },
+  ];
